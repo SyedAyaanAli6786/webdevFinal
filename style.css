@@ -1,0 +1,55 @@
+.scaler{
+    margin: 10px;
+    border: 10px;
+    padding-left: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: left;
+    width: 100vb;
+    height: 30px;
+}
+#socials{
+    margin: 0px;
+    border: 0px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+}
+.container3{
+   display: flex;
+   width: 1280px;
+   height: 600px;
+   margin: 10px;
+   justify-content:flex-start;
+   align-items: center;
+   padding-left: 50px;
+}
+.container4{
+    width: 1560px;
+    height: 4px;
+    background-color: blue;
+    transition: ease-in-out;
+    
+}
+
+#textbox{
+    display: flex;
+    height: 250px;
+    width: 400px;
+    justify-content: center;
+}
+#postBox:hover{
+    display: flex;
+    color: white;
+    justify-content: center;
+    transition:ease-in-out;
+    background-color: blue;
+}
+#img1:hover{
+    background-color:red;
+}
+#img2:hover{
+    background-color:red;
+}
