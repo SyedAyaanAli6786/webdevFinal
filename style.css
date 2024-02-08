@@ -53,3 +53,58 @@
 #img2:hover{
     background-color:red;
 }
+
+@media only screen and (max-width: 600px) {
+    .scaler{
+        margin: 10px;
+        border: 10px;
+        padding-left: 50px;
+    }
+    
+    .nav{
+        width: 100vw;
+    }
+    
+    #socials{
+        padding-right: 50px;
+    }
+    
+    .container3{
+        width: 100%;
+        max-width: 1024px;
+    }
+    
+    .container4{
+        width: 100%;
+        max-width: 1280px;
+    }
+    
+    #textbox{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .scaler{
+        margin: 5px;
+        border: 5px;
+        padding-left: 10px;
+    }
+
+    .nav, #socials {
+        justify-content: center;
+    }
+
+    #socials {
+        padding-right: 10px;
+    }
+
+    .container3{
+        padding-left: 10px;
+    }
+
+    #textbox{
+        width: 100%;
+        padding: 10px;
+    }
+}
